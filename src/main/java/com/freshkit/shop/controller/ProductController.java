@@ -27,6 +27,7 @@ public class ProductController {
         return "shop-catalog2";
     }
 
+
     @GetMapping("/prd2")
     public List<ProductDto> getAllProducts(Model model) {
         log.info("Crawling data");
